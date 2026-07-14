@@ -77,11 +77,19 @@ const foodCategories: MenuCategory[] = [
       },
     ],
   },
-  {
+{
     title: { en: "Main Dishes", sq: "Pjata Kryesore" },
     items: [
-      { name: { en: "Chicken Fillet", sq: "Fileto Pule" }, price: "11.00" },
-      { name: { en: "Beef Fillet", sq: "Fileto Viçi" }, price: "" },
+      { 
+        name: { en: "Chicken Fillet", sq: "Fileto Pule" }, 
+        ingredients: { en: "Chicken fillet, french fries", sq: "Fileto pule, patate të skuqura" },
+        price: "11.00" 
+      },
+      { 
+        name: { en: "Beef Fillet", sq: "Fileto Viçi" }, 
+        ingredients: { en: "Beef fillet, baby potatoes", sq: "Fileto viçi, patate të vogla" },
+        price: "" 
+      },
       {
         name: { en: "Qebab with Pita and Yogurt", sq: "Qebap me Pita dhe Kos" },
         ingredients: { en: "4 pcs qebab, 2 pita, yogurt sauce, onions, paprika", sq: "4 copë qebap, 2 pite, kos, salcë kosi, qepë, paprika" },
@@ -104,7 +112,7 @@ const foodCategories: MenuCategory[] = [
       },
       {
         name: { en: "Greek", sq: "Greke" },
-        ingredients: { en: "Fresh dough, tomato sauce, green peppers, black olives, mozzarella, feta", sq: "Brumë i freskët, salcë domatee, speca jeshilë, ullinj të zinj, mozzarella, feta" },
+        ingredients: { en: "Fresh dough, tomato sauce, green peppers, black olives, mozzarella, feta", sq: "Brumë i freskët, salcë domate, speca jeshilë, ullinj të zinj, mozzarella, feta" },
         price: "10.00",
       },
       {
