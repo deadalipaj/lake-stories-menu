@@ -86,10 +86,10 @@ const breakfastCategories: BreakfastCategory[] = [
   {
     title: { en: "Coffee & Hot Drinks", sq: "Kafe & Pije të Nxehta" },
     items: [
-      { name: { en: "Espresso", sq: "Espresso" }, price: "100" },
-      { name: { en: "Espresso Double", sq: "Espresso Dyfishe" }, price: "100" },
-      { name: { en: "Americano", sq: "Americano" }, price: "100" },
-      { name: { en: "Cappuccino", sq: "Cappuccino" }, price: "100" },
+      { name: { en: "Espresso", sq: "Espresso" }, price: "140" },
+      { name: { en: "Double Espresso", sq: "Double Espresso" }, price: "180" },
+      { name: { en: "Americano", sq: "Americano" }, price: "250" },
+      { name: { en: "Cappuccino", sq: "Cappuccino" }, price: "250" },
       { name: { en: "Hot Chocolate", sq: "Çokollatë e Nxehtë" }, price: "100" },
     ],
   },
@@ -181,23 +181,23 @@ function BreakfastCategorySection({ category, lang }: { category: BreakfastCateg
 
 export function BreakfastMenu({ lang }: { lang: Lang }) {
   return (
-    <div>
-      <p
-        className="mb-8 text-center"
-        style={{
-          fontFamily: "'Lato', sans-serif",
-          color: "var(--muted-foreground)",
-          fontSize: "0.9rem",
-          fontStyle: "italic",
-        }}
-      >
-        {lang === "en"
-          ? "Served in the morning — please ask your waiter for availability"
-          : "Shërbyer në mëngjes — pyesni kamerierien për disponueshmërinë"}
-      </p>
-      {breakfastCategories.map((cat) => (
-        <BreakfastCategorySection key={cat.title.en} category={cat} lang={lang} />
-      ))}
-    </div>
+    // <div>
+    //   <p
+    //     className="mb-8 text-center"
+    //     style={{
+    //       fontFamily: "'Lato', sans-serif",
+    //       color: "var(--muted-foreground)",
+    //       fontSize: "0.9rem",
+    //       fontStyle: "italic",
+    //     }}
+    //   >
+    //     {lang === "en"
+    //       ? "Served in the morning — please ask your waiter for availability"
+    //       : "Shërbyer në mëngjes — pyesni kamerierien për disponueshmërinë"}
+    //   </p>
+    //   {breakfastCategories.map((cat) => (
+    //     <BreakfastCategorySection key={cat.title.en} category={cat} lang={lang} />
+    //   ))}
+    // </div>
   );
 }
