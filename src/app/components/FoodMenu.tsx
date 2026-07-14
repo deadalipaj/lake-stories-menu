@@ -56,19 +56,19 @@ const foodCategories: MenuCategory[] = [
     title: { en: "Salads", sq: "Sallata" },
     items: [
       {
-        name: { en: "Greek Salad", sq: "Sallata Greke" },
-        ingredients: { en: "Tomato, cucumber, green peppers, olives, capers, feta, olive oil", sq: "Domate, trangull, speca jeshilë, ullinj, kaperi, feta, vaj ulliri" },
-        price: "5.50",
-      },
-      {
-        name: { en: "Caesar Salad", sq: "Sallata Cezar" },
-        ingredients: { en: "Chicken, toasted bread, corn, lettuce, caesar sauce, parmesan", sq: "Pulë, bukë e thekur, misër, marulë, salcë cezar, parmezan" },
+        name: { en: "Greek Salad", sq: "Sallatë Greke" },
+        ingredients: { en: "Tomato, cucumber, green peppers, olives, capers, feta, olive oil", sq: "Domate, kastravec, speca jeshil, ullinj, kaper, feta, vaj ulliri" },
         price: "6.50",
       },
       {
-        name: { en: "Arugula Salad", sq: "Sallata me Rukola" },
+        name: { en: "Caesar Salad", sq: "Sallatë Cezar" },
+        ingredients: { en: "Chicken, toasted bread, corn, lettuce, caesar sauce, parmesan", sq: "Pulë, bukë e thekur, misër, marule, salcë cezar, parmezan" },
+        price: "6.50",
+      },
+      {
+        name: { en: "Lake Stories Salad", sq: "Sallatë Lake Stories" },
         ingredients: { en: "Arugula, sun-dried tomato, parmesan, balsamic, virgin olive oil", sq: "Rukola, domate të thara, parmezan, balsamik, vaj ulliri i virgjër" },
-        price: "5.50",
+        price: "6.50",
       },
       {
         name: { en: "Fruit Salad", sq: "Sallatë Frutash" },
@@ -83,8 +83,8 @@ const foodCategories: MenuCategory[] = [
       { name: { en: "Chicken Fillet", sq: "Fileto Pule" }, price: "11.00" },
       { name: { en: "Beef Fillet", sq: "Fileto Viçi" }, price: "" },
       {
-        name: { en: "Qebab", sq: "Qebap" },
-        ingredients: { en: "4 pcs qebab, 2 pita, yogurt, sauce, onions, paprika", sq: "4 copë qebap, 2 pite, kos, salcë, qepë, paprika" },
+        name: { en: "Qebab with Pita and Yogurt", sq: "Qebap me Pita dhe Kos" },
+        ingredients: { en: "4 pcs qebab, 2 pita, yogurt sauce, onions, paprika", sq: "4 copë qebap, 2 pite, kos, salcë kosi, qepë, paprika" },
         price: "10.00",
       },
     ],
